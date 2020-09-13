@@ -283,6 +283,7 @@ img {
     text-align: center;
     margin: 0;
     padding-bottom: 32px;
+    padding-top: 32px;
 }
 
 .fourth-section-left {
@@ -293,11 +294,6 @@ img {
 
 .fourth-section-left video {
     width: 100%;
-    height: auto;
-}
-
-.fourth-section-right {
-    width: 40%;
     height: auto;
 }
 
@@ -312,4 +308,13 @@ img {
 
 .fourth-section-left h5 {
     padding-top: 8px;
+}
+
+.fourth-section-right {
+    width: 40%;
+    height: auto;
+}
+
+.fisma {
+    background-color: #D8D8D8;
 }
