@@ -207,7 +207,6 @@ img {
 
 .third-section {
     background-color: #EAEBEC;
-    /* margin: 32px 42px; */
     width: 100%;
     height: auto;
 }
@@ -268,4 +267,49 @@ img {
     margin-bottom: 32px;
 }
 
+/* main- fourth section thesis */
 
+.fourth-section {
+    width: 100%;
+    height: auto;
+}
+
+.fourth-section-display {
+    width: 100%;
+    height: auto;
+}
+
+.fourth-section h2 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 32px;
+}
+
+.fourth-section-left {
+    width: 60%;
+    height: auto;
+    margin: 0px 24px 24px 24px;
+}
+
+.fourth-section-left video {
+    width: 100%;
+    height: auto;
+}
+
+.fourth-section-right {
+    width: 40%;
+    height: auto;
+}
+
+.text-left-fourth-section {
+    padding: 24px 0px 32px 0px
+}
+
+.fourth-section-left h4,
+.fourth-section-left h5  {
+    margin: 0;
+}
+
+.fourth-section-left h5 {
+    padding-top: 8px;
+}
