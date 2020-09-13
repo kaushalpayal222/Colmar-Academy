@@ -1,5 +1,4 @@
 body {
-    /* box-sizing: border-box;  */
     color: #9B9B9B;
 }
 
@@ -53,7 +52,8 @@ nav li{
 
 /* main  */
 
-main {
+main,
+footer {
     font-family: avant-garde, sans-serif;
 }
 
@@ -364,4 +364,22 @@ img {
     margin: 4px;
 }
 
+/* footer */
 
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin-left: 24px;;
+}
+
+.footer-list {
+    display: flex; 
+}
+
+.footer-list li {
+    display: inline-block;
+    padding: 5px;
+}
