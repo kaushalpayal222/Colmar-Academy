@@ -226,9 +226,7 @@ img {
 .third-section-courses {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-around; */
-    
-    
+    justify-content: space-around;
 }
 
 .courses {
@@ -237,15 +235,16 @@ img {
     height: auto;
     margin: 0px 16px;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
 }
-
-/* .courses img {
-    margin-bottom: 16px;
-} */
 
 .courses-text {
     background-color: white;
     padding-top: 16px;
+    padding-bottom: 32px;
+    font-size: 16px;
+    flex: 1 0 auto;
 }
 
 .top-row {
@@ -263,6 +262,10 @@ img {
 
 .course-content {
     margin: 0px 0px 0px 16px;
+}
+
+.top-row {
+    margin-bottom: 32px;
 }
 
 
