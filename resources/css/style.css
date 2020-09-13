@@ -353,6 +353,15 @@ img {
 .text-right-fourth-section {
     width: 65%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.text-right-fourth-section h4,
+.text-right-fourth-section p {
+    margin: 4px;
 }
 
 
