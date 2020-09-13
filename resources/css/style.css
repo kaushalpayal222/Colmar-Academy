@@ -239,8 +239,30 @@ img {
     border: 1px solid black;
 }
 
+/* .courses img {
+    margin-bottom: 16px;
+} */
+
+.courses-text {
+    background-color: white;
+    padding-top: 16px;
+}
+
 .top-row {
     margin-bottom: 32px;
+}
+
+.third-section h4 {
+      margin: 0px 0px 8px 16px; 
+}
+
+.courses {
+    margin : 0px 0px 8px 16px;
+    border: none;
+}
+
+.course-content {
+    margin: 0px 0px 0px 16px;
 }
 
 
