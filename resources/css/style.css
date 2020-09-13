@@ -1,5 +1,5 @@
 body {
-    box-sizing: border-box; 
+    /* box-sizing: border-box;  */
     color: #9B9B9B;
 }
 
@@ -213,27 +213,34 @@ img {
 }
 
 .third-section-display {
-    padding: 32px 72px;
+    padding: 32px 56px;
 }
 
 .third-section h2 {
     text-align: center;
     margin: 0;
-    /* padding-bottom: 32px; */
+    padding-bottom: 32px;
+    
 }
 
 .third-section-courses {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 32px
+    /* justify-content: space-around; */
+    
+    
 }
 
 .courses {
-    flex: 0 27%;
+    flex: 0 28.3%;
+    /* align-content: flex-start; */
     height: auto;
-    margin: 16px;
+    margin: 0px 16px;
     border: 1px solid black;
+}
+
+.top-row {
+    margin-bottom: 32px;
 }
 
 
